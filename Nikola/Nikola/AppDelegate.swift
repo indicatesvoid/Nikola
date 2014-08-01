@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Nikola
 //
-//  Created by William Clark on 7/30/14.
+//  Created by William Clark on 7/31/14.
 //  Copyright (c) 2014 fuseproject. All rights reserved.
 //
 
@@ -13,12 +13,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                             
     var window: UIWindow?
 
+
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
         // Override point for customization after application launch.
-        let pageControl = UIPageControl.appearance()
-        pageControl.pageIndicatorTintColor = UIColor.lightGrayColor()
-        pageControl.currentPageIndicatorTintColor = UIColor.blackColor()
-        pageControl.backgroundColor = UIColor.whiteColor()
         return true
     }
 

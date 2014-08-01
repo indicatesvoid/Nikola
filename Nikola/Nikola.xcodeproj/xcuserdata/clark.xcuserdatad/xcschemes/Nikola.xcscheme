@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4BDBA07C1989B0510015AB99"
+               BlueprintIdentifier = "4BF7B146198B3EF300C38D17"
                BuildableName = "Nikola.app"
                BlueprintName = "Nikola"
                ReferencedContainer = "container:Nikola.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4BDBA0921989B0510015AB99"
+               BlueprintIdentifier = "4BF7B158198B3EF400C38D17"
                BuildableName = "NikolaTests.xctest"
                BlueprintName = "NikolaTests"
                ReferencedContainer = "container:Nikola.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4BDBA07C1989B0510015AB99"
+            BlueprintIdentifier = "4BF7B146198B3EF300C38D17"
             BuildableName = "Nikola.app"
             BlueprintName = "Nikola"
             ReferencedContainer = "container:Nikola.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4BDBA07C1989B0510015AB99"
+            BlueprintIdentifier = "4BF7B146198B3EF300C38D17"
             BuildableName = "Nikola.app"
             BlueprintName = "Nikola"
             ReferencedContainer = "container:Nikola.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4BDBA07C1989B0510015AB99"
+            BlueprintIdentifier = "4BF7B146198B3EF300C38D17"
             BuildableName = "Nikola.app"
             BlueprintName = "Nikola"
             ReferencedContainer = "container:Nikola.xcodeproj">

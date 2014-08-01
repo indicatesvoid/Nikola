@@ -7,126 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4BB6600A1989B72A00C4616D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB660091989B72A00C4616D /* QuartzCore.framework */; };
-		4BB6600C1989B73000C4616D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB6600B1989B73000C4616D /* Accelerate.framework */; };
-		4BDBA0831989B0510015AB99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0821989B0510015AB99 /* AppDelegate.swift */; };
-		4BDBA0851989B0510015AB99 /* ViewContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0841989B0510015AB99 /* ViewContainerController.swift */; };
-		4BDBA08C1989B0510015AB99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDBA08A1989B0510015AB99 /* Main.storyboard */; };
-		4BDBA08E1989B0510015AB99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDBA08D1989B0510015AB99 /* Images.xcassets */; };
-		4BDBA09A1989B0510015AB99 /* NikolaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0991989B0510015AB99 /* NikolaTests.swift */; };
-		4BDBA0A71989B1690015AB99 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0A51989B1690015AB99 /* BLE.m */; };
-		4BDBA0D21989B3610015AB99 /* ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0AC1989B3610015AB99 /* ANImageBitmapRep.m */; };
-		4BDBA0D31989B3610015AB99 /* BitmapContextRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0AE1989B3610015AB99 /* BitmapContextRep.m */; };
-		4BDBA0D41989B3610015AB99 /* NSImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0B11989B3610015AB99 /* NSImage+ANImageBitmapRep.m */; };
-		4BDBA0D51989B3610015AB99 /* OSCommonImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0B31989B3610015AB99 /* OSCommonImage.m */; };
-		4BDBA0D61989B3610015AB99 /* UIImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0B51989B3610015AB99 /* UIImage+ANImageBitmapRep.m */; };
-		4BDBA0D71989B3610015AB99 /* CGContextCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0B81989B3610015AB99 /* CGContextCreator.m */; };
-		4BDBA0D81989B3610015AB99 /* CGImageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0BA1989B3610015AB99 /* CGImageContainer.m */; };
-		4BDBA0D91989B3610015AB99 /* BitmapContextManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0BD1989B3610015AB99 /* BitmapContextManipulator.m */; };
-		4BDBA0DA1989B3610015AB99 /* BitmapCropManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0BF1989B3610015AB99 /* BitmapCropManipulator.m */; };
-		4BDBA0DB1989B3610015AB99 /* BitmapDrawManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0C11989B3610015AB99 /* BitmapDrawManipulator.m */; };
-		4BDBA0DC1989B3610015AB99 /* BitmapRotationManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0C31989B3610015AB99 /* BitmapRotationManipulator.m */; };
-		4BDBA0DD1989B3610015AB99 /* BitmapScaleManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0C51989B3610015AB99 /* BitmapScaleManipulator.m */; };
-		4BDBA0DE1989B3610015AB99 /* BGRSLoupeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0C71989B3610015AB99 /* BGRSLoupeLayer.m */; };
-		4BDBA0DF1989B3610015AB99 /* RSColorFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0C91989B3610015AB99 /* RSColorFunctions.m */; };
-		4BDBA0E01989B3610015AB99 /* RSColorPickerState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0CB1989B3610015AB99 /* RSColorPickerState.m */; };
-		4BDBA0E11989B3610015AB99 /* RSColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0CD1989B3610015AB99 /* RSColorPickerView.m */; };
-		4BDBA0E21989B3610015AB99 /* RSGenerateOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0CF1989B3610015AB99 /* RSGenerateOperation.m */; };
-		4BDBA0E31989B3610015AB99 /* RSSelectionLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBA0D11989B3610015AB99 /* RSSelectionLayer.m */; };
-		4BDBA0E51989B4550015AB99 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBA0E41989B4550015AB99 /* CoreBluetooth.framework */; };
-		4BDBA0E71989B45C0015AB99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBA0E61989B45C0015AB99 /* CoreGraphics.framework */; };
-		4BDBA0E91989B4630015AB99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBA0E81989B4630015AB99 /* UIKit.framework */; };
-		4BDBA0EB1989B46B0015AB99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBA0EA1989B46B0015AB99 /* Foundation.framework */; };
-		4BF7B0B6198ACDCF00C38D17 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7B0B5198ACDCF00C38D17 /* MainViewController.swift */; };
-		4BF7B0E7198AE7AC00C38D17 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7B0E6198AE7AC00C38D17 /* PageViewController.swift */; };
-		4BF7B0EA198AF14D00C38D17 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7B0E9198AF14D00C38D17 /* ModelController.swift */; };
+		4BF7B14D198B3EF300C38D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7B14C198B3EF300C38D17 /* AppDelegate.swift */; };
+		4BF7B14F198B3EF300C38D17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7B14E198B3EF300C38D17 /* ViewController.swift */; };
+		4BF7B152198B3EF300C38D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7B150198B3EF300C38D17 /* Main.storyboard */; };
+		4BF7B154198B3EF400C38D17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7B153198B3EF400C38D17 /* Images.xcassets */; };
+		4BF7B160198B3EF400C38D17 /* NikolaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7B15F198B3EF400C38D17 /* NikolaTests.swift */; };
+		4BF7B16A198B3F2500C38D17 /* StripView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7B169198B3F2500C38D17 /* StripView.xib */; };
+		4BF7B16C198B3F3800C38D17 /* StripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7B16B198B3F3800C38D17 /* StripView.swift */; };
+		4BF7B16E198B3F4F00C38D17 /* UIView+NibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7B16D198B3F4F00C38D17 /* UIView+NibLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4BDBA0941989B0510015AB99 /* PBXContainerItemProxy */ = {
+		4BF7B15A198B3EF400C38D17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4BDBA0751989B0510015AB99 /* Project object */;
+			containerPortal = 4BF7B13F198B3EF300C38D17 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4BDBA07C1989B0510015AB99;
+			remoteGlobalIDString = 4BF7B146198B3EF300C38D17;
 			remoteInfo = Nikola;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4BB660091989B72A00C4616D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		4BB6600B1989B73000C4616D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		4BDBA07D1989B0510015AB99 /* Nikola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nikola.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BDBA0811989B0510015AB99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BDBA0821989B0510015AB99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4BDBA0841989B0510015AB99 /* ViewContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContainerController.swift; sourceTree = "<group>"; };
-		4BDBA08B1989B0510015AB99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4BDBA08D1989B0510015AB99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4BDBA0931989B0510015AB99 /* NikolaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikolaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BDBA0981989B0510015AB99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BDBA0991989B0510015AB99 /* NikolaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikolaTests.swift; sourceTree = "<group>"; };
-		4BDBA0A41989B1690015AB99 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLE.h; path = libs/BLE/BLE.h; sourceTree = "<group>"; };
-		4BDBA0A51989B1690015AB99 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLE.m; path = libs/BLE/BLE.m; sourceTree = "<group>"; };
-		4BDBA0A61989B1690015AB99 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLEDefines.h; path = libs/BLE/BLEDefines.h; sourceTree = "<group>"; };
-		4BDBA0AB1989B3610015AB99 /* ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANImageBitmapRep.h; sourceTree = "<group>"; };
-		4BDBA0AC1989B3610015AB99 /* ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANImageBitmapRep.m; sourceTree = "<group>"; };
-		4BDBA0AD1989B3610015AB99 /* BitmapContextRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapContextRep.h; sourceTree = "<group>"; };
-		4BDBA0AE1989B3610015AB99 /* BitmapContextRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapContextRep.m; sourceTree = "<group>"; };
-		4BDBA0B01989B3610015AB99 /* NSImage+ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+ANImageBitmapRep.h"; sourceTree = "<group>"; };
-		4BDBA0B11989B3610015AB99 /* NSImage+ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+ANImageBitmapRep.m"; sourceTree = "<group>"; };
-		4BDBA0B21989B3610015AB99 /* OSCommonImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCommonImage.h; sourceTree = "<group>"; };
-		4BDBA0B31989B3610015AB99 /* OSCommonImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCommonImage.m; sourceTree = "<group>"; };
-		4BDBA0B41989B3610015AB99 /* UIImage+ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ANImageBitmapRep.h"; sourceTree = "<group>"; };
-		4BDBA0B51989B3610015AB99 /* UIImage+ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ANImageBitmapRep.m"; sourceTree = "<group>"; };
-		4BDBA0B71989B3610015AB99 /* CGContextCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGContextCreator.h; sourceTree = "<group>"; };
-		4BDBA0B81989B3610015AB99 /* CGContextCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGContextCreator.m; sourceTree = "<group>"; };
-		4BDBA0B91989B3610015AB99 /* CGImageContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGImageContainer.h; sourceTree = "<group>"; };
-		4BDBA0BA1989B3610015AB99 /* CGImageContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGImageContainer.m; sourceTree = "<group>"; };
-		4BDBA0BC1989B3610015AB99 /* BitmapContextManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapContextManipulator.h; sourceTree = "<group>"; };
-		4BDBA0BD1989B3610015AB99 /* BitmapContextManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapContextManipulator.m; sourceTree = "<group>"; };
-		4BDBA0BE1989B3610015AB99 /* BitmapCropManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapCropManipulator.h; sourceTree = "<group>"; };
-		4BDBA0BF1989B3610015AB99 /* BitmapCropManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapCropManipulator.m; sourceTree = "<group>"; };
-		4BDBA0C01989B3610015AB99 /* BitmapDrawManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapDrawManipulator.h; sourceTree = "<group>"; };
-		4BDBA0C11989B3610015AB99 /* BitmapDrawManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapDrawManipulator.m; sourceTree = "<group>"; };
-		4BDBA0C21989B3610015AB99 /* BitmapRotationManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapRotationManipulator.h; sourceTree = "<group>"; };
-		4BDBA0C31989B3610015AB99 /* BitmapRotationManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapRotationManipulator.m; sourceTree = "<group>"; };
-		4BDBA0C41989B3610015AB99 /* BitmapScaleManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapScaleManipulator.h; sourceTree = "<group>"; };
-		4BDBA0C51989B3610015AB99 /* BitmapScaleManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapScaleManipulator.m; sourceTree = "<group>"; };
-		4BDBA0C61989B3610015AB99 /* BGRSLoupeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BGRSLoupeLayer.h; path = libs/RSColorPicker/BGRSLoupeLayer.h; sourceTree = "<group>"; };
-		4BDBA0C71989B3610015AB99 /* BGRSLoupeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BGRSLoupeLayer.m; path = libs/RSColorPicker/BGRSLoupeLayer.m; sourceTree = "<group>"; };
-		4BDBA0C81989B3610015AB99 /* RSColorFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSColorFunctions.h; path = libs/RSColorPicker/RSColorFunctions.h; sourceTree = "<group>"; };
-		4BDBA0C91989B3610015AB99 /* RSColorFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSColorFunctions.m; path = libs/RSColorPicker/RSColorFunctions.m; sourceTree = "<group>"; };
-		4BDBA0CA1989B3610015AB99 /* RSColorPickerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSColorPickerState.h; path = libs/RSColorPicker/RSColorPickerState.h; sourceTree = "<group>"; };
-		4BDBA0CB1989B3610015AB99 /* RSColorPickerState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSColorPickerState.m; path = libs/RSColorPicker/RSColorPickerState.m; sourceTree = "<group>"; };
-		4BDBA0CC1989B3610015AB99 /* RSColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSColorPickerView.h; path = libs/RSColorPicker/RSColorPickerView.h; sourceTree = "<group>"; };
-		4BDBA0CD1989B3610015AB99 /* RSColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSColorPickerView.m; path = libs/RSColorPicker/RSColorPickerView.m; sourceTree = "<group>"; };
-		4BDBA0CE1989B3610015AB99 /* RSGenerateOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSGenerateOperation.h; path = libs/RSColorPicker/RSGenerateOperation.h; sourceTree = "<group>"; };
-		4BDBA0CF1989B3610015AB99 /* RSGenerateOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSGenerateOperation.m; path = libs/RSColorPicker/RSGenerateOperation.m; sourceTree = "<group>"; };
-		4BDBA0D01989B3610015AB99 /* RSSelectionLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSelectionLayer.h; path = libs/RSColorPicker/RSSelectionLayer.h; sourceTree = "<group>"; };
-		4BDBA0D11989B3610015AB99 /* RSSelectionLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSelectionLayer.m; path = libs/RSColorPicker/RSSelectionLayer.m; sourceTree = "<group>"; };
-		4BDBA0E41989B4550015AB99 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
-		4BDBA0E61989B45C0015AB99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4BDBA0E81989B4630015AB99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		4BDBA0EA1989B46B0015AB99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4BF7B0B5198ACDCF00C38D17 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = views/MainViewController.swift; sourceTree = "<group>"; };
-		4BF7B0E6198AE7AC00C38D17 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageViewController.swift; path = views/PageViewController.swift; sourceTree = "<group>"; };
-		4BF7B0E9198AF14D00C38D17 /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelController.swift; path = models/ModelController.swift; sourceTree = "<group>"; };
+		4BF7B147198B3EF300C38D17 /* Nikola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nikola.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF7B14B198B3EF300C38D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF7B14C198B3EF300C38D17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BF7B14E198B3EF300C38D17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BF7B151198B3EF300C38D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BF7B153198B3EF400C38D17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4BF7B159198B3EF400C38D17 /* NikolaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikolaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF7B15E198B3EF400C38D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF7B15F198B3EF400C38D17 /* NikolaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikolaTests.swift; sourceTree = "<group>"; };
+		4BF7B169198B3F2500C38D17 /* StripView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StripView.xib; sourceTree = "<group>"; };
+		4BF7B16B198B3F3800C38D17 /* StripView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StripView.swift; sourceTree = "<group>"; };
+		4BF7B16D198B3F4F00C38D17 /* UIView+NibLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NibLoader.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4BDBA07A1989B0510015AB99 /* Frameworks */ = {
+		4BF7B144198B3EF300C38D17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BB6600C1989B73000C4616D /* Accelerate.framework in Frameworks */,
-				4BB6600A1989B72A00C4616D /* QuartzCore.framework in Frameworks */,
-				4BDBA0EB1989B46B0015AB99 /* Foundation.framework in Frameworks */,
-				4BDBA0E91989B4630015AB99 /* UIKit.framework in Frameworks */,
-				4BDBA0E71989B45C0015AB99 /* CoreGraphics.framework in Frameworks */,
-				4BDBA0E51989B4550015AB99 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BDBA0901989B0510015AB99 /* Frameworks */ = {
+		4BF7B156198B3EF400C38D17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -136,192 +60,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4BDBA0741989B0510015AB99 = {
+		4BF7B13E198B3EF300C38D17 = {
 			isa = PBXGroup;
 			children = (
-				4BB6600B1989B73000C4616D /* Accelerate.framework */,
-				4BB660091989B72A00C4616D /* QuartzCore.framework */,
-				4BDBA0EA1989B46B0015AB99 /* Foundation.framework */,
-				4BDBA0E81989B4630015AB99 /* UIKit.framework */,
-				4BDBA0E61989B45C0015AB99 /* CoreGraphics.framework */,
-				4BDBA0E41989B4550015AB99 /* CoreBluetooth.framework */,
-				4BDBA07F1989B0510015AB99 /* Nikola */,
-				4BDBA0961989B0510015AB99 /* NikolaTests */,
-				4BDBA07E1989B0510015AB99 /* Products */,
+				4BF7B149198B3EF300C38D17 /* Nikola */,
+				4BF7B15C198B3EF400C38D17 /* NikolaTests */,
+				4BF7B148198B3EF300C38D17 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4BDBA07E1989B0510015AB99 /* Products */ = {
+		4BF7B148198B3EF300C38D17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4BDBA07D1989B0510015AB99 /* Nikola.app */,
-				4BDBA0931989B0510015AB99 /* NikolaTests.xctest */,
+				4BF7B147198B3EF300C38D17 /* Nikola.app */,
+				4BF7B159198B3EF400C38D17 /* NikolaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4BDBA07F1989B0510015AB99 /* Nikola */ = {
+		4BF7B149198B3EF300C38D17 /* Nikola */ = {
 			isa = PBXGroup;
 			children = (
-				4BF7B0E8198AF13C00C38D17 /* models */,
-				4BF7B0B4198ACD8000C38D17 /* views */,
-				4BDBA0A31989B1560015AB99 /* libs */,
-				4BDBA0821989B0510015AB99 /* AppDelegate.swift */,
-				4BDBA08D1989B0510015AB99 /* Images.xcassets */,
-				4BDBA0801989B0510015AB99 /* Supporting Files */,
+				4BF7B14C198B3EF300C38D17 /* AppDelegate.swift */,
+				4BF7B14E198B3EF300C38D17 /* ViewController.swift */,
+				4BF7B150198B3EF300C38D17 /* Main.storyboard */,
+				4BF7B153198B3EF400C38D17 /* Images.xcassets */,
+				4BF7B14A198B3EF300C38D17 /* Supporting Files */,
+				4BF7B169198B3F2500C38D17 /* StripView.xib */,
+				4BF7B16B198B3F3800C38D17 /* StripView.swift */,
+				4BF7B16D198B3F4F00C38D17 /* UIView+NibLoader.swift */,
 			);
 			path = Nikola;
 			sourceTree = "<group>";
 		};
-		4BDBA0801989B0510015AB99 /* Supporting Files */ = {
+		4BF7B14A198B3EF300C38D17 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4BDBA0811989B0510015AB99 /* Info.plist */,
+				4BF7B14B198B3EF300C38D17 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4BDBA0961989B0510015AB99 /* NikolaTests */ = {
+		4BF7B15C198B3EF400C38D17 /* NikolaTests */ = {
 			isa = PBXGroup;
 			children = (
-				4BDBA0991989B0510015AB99 /* NikolaTests.swift */,
-				4BDBA0971989B0510015AB99 /* Supporting Files */,
+				4BF7B15F198B3EF400C38D17 /* NikolaTests.swift */,
+				4BF7B15D198B3EF400C38D17 /* Supporting Files */,
 			);
 			path = NikolaTests;
 			sourceTree = "<group>";
 		};
-		4BDBA0971989B0510015AB99 /* Supporting Files */ = {
+		4BF7B15D198B3EF400C38D17 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4BDBA0981989B0510015AB99 /* Info.plist */,
+				4BF7B15E198B3EF400C38D17 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4BDBA0A31989B1560015AB99 /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				4BDBA0A91989B3370015AB99 /* RSColorPicker */,
-				4BDBA0A81989B1850015AB99 /* BLE */,
-			);
-			name = libs;
-			sourceTree = "<group>";
-		};
-		4BDBA0A81989B1850015AB99 /* BLE */ = {
-			isa = PBXGroup;
-			children = (
-				4BDBA0A41989B1690015AB99 /* BLE.h */,
-				4BDBA0A51989B1690015AB99 /* BLE.m */,
-				4BDBA0A61989B1690015AB99 /* BLEDefines.h */,
-			);
-			name = BLE;
-			sourceTree = "<group>";
-		};
-		4BDBA0A91989B3370015AB99 /* RSColorPicker */ = {
-			isa = PBXGroup;
-			children = (
-				4BDBA0AA1989B3610015AB99 /* ANImageBitmapRep */,
-				4BDBA0C61989B3610015AB99 /* BGRSLoupeLayer.h */,
-				4BDBA0C71989B3610015AB99 /* BGRSLoupeLayer.m */,
-				4BDBA0C81989B3610015AB99 /* RSColorFunctions.h */,
-				4BDBA0C91989B3610015AB99 /* RSColorFunctions.m */,
-				4BDBA0CA1989B3610015AB99 /* RSColorPickerState.h */,
-				4BDBA0CB1989B3610015AB99 /* RSColorPickerState.m */,
-				4BDBA0CC1989B3610015AB99 /* RSColorPickerView.h */,
-				4BDBA0CD1989B3610015AB99 /* RSColorPickerView.m */,
-				4BDBA0CE1989B3610015AB99 /* RSGenerateOperation.h */,
-				4BDBA0CF1989B3610015AB99 /* RSGenerateOperation.m */,
-				4BDBA0D01989B3610015AB99 /* RSSelectionLayer.h */,
-				4BDBA0D11989B3610015AB99 /* RSSelectionLayer.m */,
-			);
-			name = RSColorPicker;
-			sourceTree = "<group>";
-		};
-		4BDBA0AA1989B3610015AB99 /* ANImageBitmapRep */ = {
-			isa = PBXGroup;
-			children = (
-				4BDBA0AB1989B3610015AB99 /* ANImageBitmapRep.h */,
-				4BDBA0AC1989B3610015AB99 /* ANImageBitmapRep.m */,
-				4BDBA0AD1989B3610015AB99 /* BitmapContextRep.h */,
-				4BDBA0AE1989B3610015AB99 /* BitmapContextRep.m */,
-				4BDBA0AF1989B3610015AB99 /* Compatibility */,
-				4BDBA0B61989B3610015AB99 /* CoreGraphics */,
-				4BDBA0BB1989B3610015AB99 /* Manipulators */,
-			);
-			name = ANImageBitmapRep;
-			path = libs/RSColorPicker/ANImageBitmapRep;
-			sourceTree = "<group>";
-		};
-		4BDBA0AF1989B3610015AB99 /* Compatibility */ = {
-			isa = PBXGroup;
-			children = (
-				4BDBA0B01989B3610015AB99 /* NSImage+ANImageBitmapRep.h */,
-				4BDBA0B11989B3610015AB99 /* NSImage+ANImageBitmapRep.m */,
-				4BDBA0B21989B3610015AB99 /* OSCommonImage.h */,
-				4BDBA0B31989B3610015AB99 /* OSCommonImage.m */,
-				4BDBA0B41989B3610015AB99 /* UIImage+ANImageBitmapRep.h */,
-				4BDBA0B51989B3610015AB99 /* UIImage+ANImageBitmapRep.m */,
-			);
-			path = Compatibility;
-			sourceTree = "<group>";
-		};
-		4BDBA0B61989B3610015AB99 /* CoreGraphics */ = {
-			isa = PBXGroup;
-			children = (
-				4BDBA0B71989B3610015AB99 /* CGContextCreator.h */,
-				4BDBA0B81989B3610015AB99 /* CGContextCreator.m */,
-				4BDBA0B91989B3610015AB99 /* CGImageContainer.h */,
-				4BDBA0BA1989B3610015AB99 /* CGImageContainer.m */,
-			);
-			path = CoreGraphics;
-			sourceTree = "<group>";
-		};
-		4BDBA0BB1989B3610015AB99 /* Manipulators */ = {
-			isa = PBXGroup;
-			children = (
-				4BDBA0BC1989B3610015AB99 /* BitmapContextManipulator.h */,
-				4BDBA0BD1989B3610015AB99 /* BitmapContextManipulator.m */,
-				4BDBA0BE1989B3610015AB99 /* BitmapCropManipulator.h */,
-				4BDBA0BF1989B3610015AB99 /* BitmapCropManipulator.m */,
-				4BDBA0C01989B3610015AB99 /* BitmapDrawManipulator.h */,
-				4BDBA0C11989B3610015AB99 /* BitmapDrawManipulator.m */,
-				4BDBA0C21989B3610015AB99 /* BitmapRotationManipulator.h */,
-				4BDBA0C31989B3610015AB99 /* BitmapRotationManipulator.m */,
-				4BDBA0C41989B3610015AB99 /* BitmapScaleManipulator.h */,
-				4BDBA0C51989B3610015AB99 /* BitmapScaleManipulator.m */,
-			);
-			path = Manipulators;
-			sourceTree = "<group>";
-		};
-		4BF7B0B4198ACD8000C38D17 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				4BDBA08A1989B0510015AB99 /* Main.storyboard */,
-				4BDBA0841989B0510015AB99 /* ViewContainerController.swift */,
-				4BF7B0B5198ACDCF00C38D17 /* MainViewController.swift */,
-				4BF7B0E6198AE7AC00C38D17 /* PageViewController.swift */,
-			);
-			name = views;
-			sourceTree = "<group>";
-		};
-		4BF7B0E8198AF13C00C38D17 /* models */ = {
-			isa = PBXGroup;
-			children = (
-				4BF7B0E9198AF14D00C38D17 /* ModelController.swift */,
-			);
-			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4BDBA07C1989B0510015AB99 /* Nikola */ = {
+		4BF7B146198B3EF300C38D17 /* Nikola */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BDBA09D1989B0510015AB99 /* Build configuration list for PBXNativeTarget "Nikola" */;
+			buildConfigurationList = 4BF7B163198B3EF400C38D17 /* Build configuration list for PBXNativeTarget "Nikola" */;
 			buildPhases = (
-				4BDBA0791989B0510015AB99 /* Sources */,
-				4BDBA07A1989B0510015AB99 /* Frameworks */,
-				4BDBA07B1989B0510015AB99 /* Resources */,
+				4BF7B143198B3EF300C38D17 /* Sources */,
+				4BF7B144198B3EF300C38D17 /* Frameworks */,
+				4BF7B145198B3EF300C38D17 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -329,46 +135,46 @@
 			);
 			name = Nikola;
 			productName = Nikola;
-			productReference = 4BDBA07D1989B0510015AB99 /* Nikola.app */;
+			productReference = 4BF7B147198B3EF300C38D17 /* Nikola.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4BDBA0921989B0510015AB99 /* NikolaTests */ = {
+		4BF7B158198B3EF400C38D17 /* NikolaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BDBA0A01989B0510015AB99 /* Build configuration list for PBXNativeTarget "NikolaTests" */;
+			buildConfigurationList = 4BF7B166198B3EF400C38D17 /* Build configuration list for PBXNativeTarget "NikolaTests" */;
 			buildPhases = (
-				4BDBA08F1989B0510015AB99 /* Sources */,
-				4BDBA0901989B0510015AB99 /* Frameworks */,
-				4BDBA0911989B0510015AB99 /* Resources */,
+				4BF7B155198B3EF400C38D17 /* Sources */,
+				4BF7B156198B3EF400C38D17 /* Frameworks */,
+				4BF7B157198B3EF400C38D17 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4BDBA0951989B0510015AB99 /* PBXTargetDependency */,
+				4BF7B15B198B3EF400C38D17 /* PBXTargetDependency */,
 			);
 			name = NikolaTests;
 			productName = NikolaTests;
-			productReference = 4BDBA0931989B0510015AB99 /* NikolaTests.xctest */;
+			productReference = 4BF7B159198B3EF400C38D17 /* NikolaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4BDBA0751989B0510015AB99 /* Project object */ = {
+		4BF7B13F198B3EF300C38D17 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = fuseproject;
 				TargetAttributes = {
-					4BDBA07C1989B0510015AB99 = {
+					4BF7B146198B3EF300C38D17 = {
 						CreatedOnToolsVersion = 6.0;
 					};
-					4BDBA0921989B0510015AB99 = {
+					4BF7B158198B3EF400C38D17 = {
 						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 4BDBA07C1989B0510015AB99;
+						TestTargetID = 4BF7B146198B3EF300C38D17;
 					};
 				};
 			};
-			buildConfigurationList = 4BDBA0781989B0510015AB99 /* Build configuration list for PBXProject "Nikola" */;
+			buildConfigurationList = 4BF7B142198B3EF300C38D17 /* Build configuration list for PBXProject "Nikola" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -376,28 +182,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 4BDBA0741989B0510015AB99;
-			productRefGroup = 4BDBA07E1989B0510015AB99 /* Products */;
+			mainGroup = 4BF7B13E198B3EF300C38D17;
+			productRefGroup = 4BF7B148198B3EF300C38D17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4BDBA07C1989B0510015AB99 /* Nikola */,
-				4BDBA0921989B0510015AB99 /* NikolaTests */,
+				4BF7B146198B3EF300C38D17 /* Nikola */,
+				4BF7B158198B3EF400C38D17 /* NikolaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4BDBA07B1989B0510015AB99 /* Resources */ = {
+		4BF7B145198B3EF300C38D17 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BDBA08C1989B0510015AB99 /* Main.storyboard in Resources */,
-				4BDBA08E1989B0510015AB99 /* Images.xcassets in Resources */,
+				4BF7B16A198B3F2500C38D17 /* StripView.xib in Resources */,
+				4BF7B152198B3EF300C38D17 /* Main.storyboard in Resources */,
+				4BF7B154198B3EF400C38D17 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BDBA0911989B0510015AB99 /* Resources */ = {
+		4BF7B157198B3EF400C38D17 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -407,60 +214,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4BDBA0791989B0510015AB99 /* Sources */ = {
+		4BF7B143198B3EF300C38D17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BDBA0851989B0510015AB99 /* ViewContainerController.swift in Sources */,
-				4BF7B0B6198ACDCF00C38D17 /* MainViewController.swift in Sources */,
-				4BDBA0D61989B3610015AB99 /* UIImage+ANImageBitmapRep.m in Sources */,
-				4BDBA0DF1989B3610015AB99 /* RSColorFunctions.m in Sources */,
-				4BDBA0D41989B3610015AB99 /* NSImage+ANImageBitmapRep.m in Sources */,
-				4BDBA0D71989B3610015AB99 /* CGContextCreator.m in Sources */,
-				4BF7B0E7198AE7AC00C38D17 /* PageViewController.swift in Sources */,
-				4BDBA0D81989B3610015AB99 /* CGImageContainer.m in Sources */,
-				4BDBA0D91989B3610015AB99 /* BitmapContextManipulator.m in Sources */,
-				4BDBA0DE1989B3610015AB99 /* BGRSLoupeLayer.m in Sources */,
-				4BDBA0DA1989B3610015AB99 /* BitmapCropManipulator.m in Sources */,
-				4BDBA0E31989B3610015AB99 /* RSSelectionLayer.m in Sources */,
-				4BDBA0D51989B3610015AB99 /* OSCommonImage.m in Sources */,
-				4BDBA0D31989B3610015AB99 /* BitmapContextRep.m in Sources */,
-				4BDBA0E11989B3610015AB99 /* RSColorPickerView.m in Sources */,
-				4BDBA0A71989B1690015AB99 /* BLE.m in Sources */,
-				4BDBA0E21989B3610015AB99 /* RSGenerateOperation.m in Sources */,
-				4BDBA0E01989B3610015AB99 /* RSColorPickerState.m in Sources */,
-				4BDBA0DB1989B3610015AB99 /* BitmapDrawManipulator.m in Sources */,
-				4BDBA0831989B0510015AB99 /* AppDelegate.swift in Sources */,
-				4BDBA0D21989B3610015AB99 /* ANImageBitmapRep.m in Sources */,
-				4BF7B0EA198AF14D00C38D17 /* ModelController.swift in Sources */,
-				4BDBA0DD1989B3610015AB99 /* BitmapScaleManipulator.m in Sources */,
-				4BDBA0DC1989B3610015AB99 /* BitmapRotationManipulator.m in Sources */,
+				4BF7B14F198B3EF300C38D17 /* ViewController.swift in Sources */,
+				4BF7B16E198B3F4F00C38D17 /* UIView+NibLoader.swift in Sources */,
+				4BF7B14D198B3EF300C38D17 /* AppDelegate.swift in Sources */,
+				4BF7B16C198B3F3800C38D17 /* StripView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BDBA08F1989B0510015AB99 /* Sources */ = {
+		4BF7B155198B3EF400C38D17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BDBA09A1989B0510015AB99 /* NikolaTests.swift in Sources */,
+				4BF7B160198B3EF400C38D17 /* NikolaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4BDBA0951989B0510015AB99 /* PBXTargetDependency */ = {
+		4BF7B15B198B3EF400C38D17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4BDBA07C1989B0510015AB99 /* Nikola */;
-			targetProxy = 4BDBA0941989B0510015AB99 /* PBXContainerItemProxy */;
+			target = 4BF7B146198B3EF300C38D17 /* Nikola */;
+			targetProxy = 4BF7B15A198B3EF400C38D17 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4BDBA08A1989B0510015AB99 /* Main.storyboard */ = {
+		4BF7B150198B3EF300C38D17 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4BDBA08B1989B0510015AB99 /* Base */,
+				4BF7B151198B3EF300C38D17 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -468,7 +255,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4BDBA09B1989B0510015AB99 /* Debug */ = {
+		4BF7B161198B3EF400C38D17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -510,7 +297,7 @@
 			};
 			name = Debug;
 		};
-		4BDBA09C1989B0510015AB99 /* Release */ = {
+		4BF7B162198B3EF400C38D17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -545,35 +332,29 @@
 			};
 			name = Release;
 		};
-		4BDBA09E1989B0510015AB99 /* Debug */ = {
+		4BF7B164198B3EF400C38D17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Nikola/Nikola-Prefix.pch";
 				INFOPLIST_FILE = Nikola/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		4BDBA09F1989B0510015AB99 /* Release */ = {
+		4BF7B165198B3EF400C38D17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Nikola/Nikola-Prefix.pch";
 				INFOPLIST_FILE = Nikola/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		4BDBA0A11989B0510015AB99 /* Debug */ = {
+		4BF7B167198B3EF400C38D17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nikola.app/Nikola";
@@ -592,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		4BDBA0A21989B0510015AB99 /* Release */ = {
+		4BF7B168198B3EF400C38D17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nikola.app/Nikola";
@@ -610,34 +391,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4BDBA0781989B0510015AB99 /* Build configuration list for PBXProject "Nikola" */ = {
+		4BF7B142198B3EF300C38D17 /* Build configuration list for PBXProject "Nikola" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BDBA09B1989B0510015AB99 /* Debug */,
-				4BDBA09C1989B0510015AB99 /* Release */,
+				4BF7B161198B3EF400C38D17 /* Debug */,
+				4BF7B162198B3EF400C38D17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BDBA09D1989B0510015AB99 /* Build configuration list for PBXNativeTarget "Nikola" */ = {
+		4BF7B163198B3EF400C38D17 /* Build configuration list for PBXNativeTarget "Nikola" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BDBA09E1989B0510015AB99 /* Debug */,
-				4BDBA09F1989B0510015AB99 /* Release */,
+				4BF7B164198B3EF400C38D17 /* Debug */,
+				4BF7B165198B3EF400C38D17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		4BDBA0A01989B0510015AB99 /* Build configuration list for PBXNativeTarget "NikolaTests" */ = {
+		4BF7B166198B3EF400C38D17 /* Build configuration list for PBXNativeTarget "NikolaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BDBA0A11989B0510015AB99 /* Debug */,
-				4BDBA0A21989B0510015AB99 /* Release */,
+				4BF7B167198B3EF400C38D17 /* Debug */,
+				4BF7B168198B3EF400C38D17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4BDBA0751989B0510015AB99 /* Project object */;
+	rootObject = 4BF7B13F198B3EF300C38D17 /* Project object */;
 }
