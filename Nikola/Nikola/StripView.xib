@@ -29,6 +29,13 @@
                         <rect key="frame" x="255" y="19" width="57" height="30"/>
                     </variation>
                 </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l6U-bh-GTG">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="81" y="107" width="160" height="160"/>
+                    </variation>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <nil key="simulatedStatusBarMetrics"/>
@@ -36,17 +43,20 @@
             <variation key="default">
                 <mask key="subviews">
                     <exclude reference="5Wn-nc-3f4"/>
+                    <exclude reference="l6U-bh-GTG"/>
                 </mask>
             </variation>
             <variation key="heightClass=regular-widthClass=compact">
                 <mask key="subviews">
                     <include reference="5Wn-nc-3f4"/>
+                    <include reference="l6U-bh-GTG"/>
                 </mask>
             </variation>
             <connections>
+                <outlet property="colorPickerFrame" destination="l6U-bh-GTG" id="arK-C6-A00"/>
                 <outlet property="stripNumLabel" destination="ga3-Cd-yqL" id="c7m-Df-O1C"/>
             </connections>
-            <point key="canvasLocation" x="-19.5" y="-137.5"/>
+            <point key="canvasLocation" x="-337.5" y="-728"/>
         </view>
     </objects>
 </document>

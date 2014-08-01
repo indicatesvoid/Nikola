@@ -10,6 +10,9 @@ import UIKit
 
 class StripView: UIView {
     @IBOutlet weak var stripNumLabel: UILabel!
+    @IBOutlet weak var colorPickerFrame: UIView!
+    
+//    var colorPicker: RSColorPicker
     
     var stripNum: Int!
     
