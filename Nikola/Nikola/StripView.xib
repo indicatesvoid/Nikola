@@ -15,48 +15,61 @@
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="135" y="23" width="51" height="21"/>
+                    </variation>
                 </label>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bJy-AU-nFh" userLabel="Rule">
                     <rect key="frame" x="0.0" y="55" width="640" height="1"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l6U-bh-GTG">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="20" y="78" width="160" height="160"/>
+                    </variation>
+                </view>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X7F-fF-Jbp">
+                    <rect key="frame" x="0.0" y="-162" width="320" height="162"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="234" width="321" height="162"/>
+                    </variation>
+                </pickerView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Wn-nc-3f4">
                     <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                     <state key="normal" title="Settings">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                        <rect key="frame" x="255" y="19" width="57" height="30"/>
+                        <rect key="frame" x="20" y="19" width="57" height="30"/>
                     </variation>
                 </button>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l6U-bh-GTG">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                        <rect key="frame" x="81" y="107" width="160" height="160"/>
-                    </variation>
-                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <variation key="default">
                 <mask key="subviews">
-                    <exclude reference="5Wn-nc-3f4"/>
                     <exclude reference="l6U-bh-GTG"/>
+                    <exclude reference="X7F-fF-Jbp"/>
+                    <exclude reference="5Wn-nc-3f4"/>
                 </mask>
             </variation>
             <variation key="heightClass=regular-widthClass=compact">
                 <mask key="subviews">
-                    <include reference="5Wn-nc-3f4"/>
                     <include reference="l6U-bh-GTG"/>
+                    <include reference="X7F-fF-Jbp"/>
+                    <include reference="5Wn-nc-3f4"/>
                 </mask>
             </variation>
             <connections>
                 <outlet property="colorPickerFrame" destination="l6U-bh-GTG" id="arK-C6-A00"/>
+                <outlet property="modePicker" destination="X7F-fF-Jbp" id="vgl-nQ-BiM"/>
+                <outlet property="settingsBtn" destination="5Wn-nc-3f4" id="wsB-pd-GaK"/>
                 <outlet property="stripNumLabel" destination="ga3-Cd-yqL" id="c7m-Df-O1C"/>
             </connections>
-            <point key="canvasLocation" x="-337.5" y="-728"/>
+            <point key="canvasLocation" x="-497.5" y="-981.5"/>
         </view>
     </objects>
 </document>

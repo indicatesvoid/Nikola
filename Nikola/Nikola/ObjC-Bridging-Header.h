@@ -6,5 +6,9 @@
 //  Copyright (c) 2014 fuseproject. All rights reserved.
 //
 
+// RSColorPicker
 #import "ColorPickerClasses/RSColorPickerView.h"
 #import "ColorPickerClasses/RSColorFunctions.h"
+
+// SWRevealViewController
+#import "SWRevealViewController/SWRevealViewController.h"

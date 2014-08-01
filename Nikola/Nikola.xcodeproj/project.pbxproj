@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B50A15B198C1712007E179E /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50A15A198C1712007E179E /* DataModel.swift */; };
+		4B50A15F198C1F81007E179E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B50A15E198C1F81007E179E /* SWRevealViewController.m */; };
+		4B50A168198C2763007E179E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50A167198C2763007E179E /* SettingsViewController.swift */; };
 		4B5E6C86198C0A79005FC840 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5E6C83198C0A4E005FC840 /* CoreGraphics.framework */; };
 		4B5E6C87198C0A79005FC840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5E6C81198C0A46005FC840 /* Foundation.framework */; };
 		4B5E6C88198C0A79005FC840 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5E6C7F198C0A3F005FC840 /* UIKit.framework */; };
@@ -52,6 +55,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B50A15A198C1712007E179E /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		4B50A15D198C1F81007E179E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		4B50A15E198C1F81007E179E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		4B50A167198C2763007E179E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		4B5E6C7B198C0A32005FC840 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		4B5E6C7D198C0A38005FC840 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4B5E6C7F198C0A3F005FC840 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -133,6 +140,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B50A15C198C1F81007E179E /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B50A15D198C1F81007E179E /* SWRevealViewController.h */,
+				4B50A15E198C1F81007E179E /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		4B50A163198C271A007E179E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4BF7B14E198B3EF300C38D17 /* ViewController.swift */,
+				4BF7B16F198B460300C38D17 /* StripViewController.swift */,
+				4B50A167198C2763007E179E /* SettingsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4B50A164198C272C007E179E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4BF7B169198B3F2500C38D17 /* StripView.xib */,
+				4BF7B16B198B3F3800C38D17 /* StripView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4B50A165198C2738007E179E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4BF7B16D198B3F4F00C38D17 /* UIView+NibLoader.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		4B50A166198C274C007E179E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4B50A15A198C1712007E179E /* DataModel.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		4B5E6C85198C0A6D005FC840 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,17 +293,17 @@
 		4BF7B149198B3EF300C38D17 /* Nikola */ = {
 			isa = PBXGroup;
 			children = (
+				4B50A166198C274C007E179E /* Data */,
+				4B50A165198C2738007E179E /* Extensions */,
+				4B50A164198C272C007E179E /* Views */,
+				4B50A163198C271A007E179E /* ViewControllers */,
+				4B50A15C198C1F81007E179E /* SWRevealViewController */,
 				4B5E6CC8198C0BBD005FC840 /* RSColorPicker-Prefix.pch */,
 				4B5E6C8C198C0AB0005FC840 /* ColorPickerClasses */,
 				4BF7B14C198B3EF300C38D17 /* AppDelegate.swift */,
-				4BF7B14E198B3EF300C38D17 /* ViewController.swift */,
-				4BF7B16F198B460300C38D17 /* StripViewController.swift */,
 				4BF7B150198B3EF300C38D17 /* Main.storyboard */,
 				4BF7B153198B3EF400C38D17 /* Images.xcassets */,
 				4BF7B14A198B3EF300C38D17 /* Supporting Files */,
-				4BF7B169198B3F2500C38D17 /* StripView.xib */,
-				4BF7B16B198B3F3800C38D17 /* StripView.swift */,
-				4BF7B16D198B3F4F00C38D17 /* UIView+NibLoader.swift */,
 				4B5E6C8D198C0ACC005FC840 /* ObjC-Bridging-Header.h */,
 			);
 			path = Nikola;
@@ -388,12 +439,14 @@
 				4BF7B16E198B3F4F00C38D17 /* UIView+NibLoader.swift in Sources */,
 				4B5E6CC3198C0B9F005FC840 /* RSColorFunctions.m in Sources */,
 				4B5E6CB8198C0B9F005FC840 /* NSImage+ANImageBitmapRep.m in Sources */,
+				4B50A15B198C1712007E179E /* DataModel.swift in Sources */,
 				4B5E6CBB198C0B9F005FC840 /* CGContextCreator.m in Sources */,
 				4B5E6CBC198C0B9F005FC840 /* CGImageContainer.m in Sources */,
 				4B5E6CBD198C0B9F005FC840 /* BitmapContextManipulator.m in Sources */,
 				4B5E6CC2198C0B9F005FC840 /* BGRSLoupeLayer.m in Sources */,
 				4B5E6CBE198C0B9F005FC840 /* BitmapCropManipulator.m in Sources */,
 				4BF7B14D198B3EF300C38D17 /* AppDelegate.swift in Sources */,
+				4B50A15F198C1F81007E179E /* SWRevealViewController.m in Sources */,
 				4B5E6CC7198C0B9F005FC840 /* RSSelectionLayer.m in Sources */,
 				4B5E6CB9198C0B9F005FC840 /* OSCommonImage.m in Sources */,
 				4B5E6CB7198C0B9F005FC840 /* BitmapContextRep.m in Sources */,
@@ -404,6 +457,7 @@
 				4B5E6CBF198C0B9F005FC840 /* BitmapDrawManipulator.m in Sources */,
 				4BF7B16C198B3F3800C38D17 /* StripView.swift in Sources */,
 				4B5E6CB6198C0B9F005FC840 /* ANImageBitmapRep.m in Sources */,
+				4B50A168198C2763007E179E /* SettingsViewController.swift in Sources */,
 				4B5E6CC1198C0B9F005FC840 /* BitmapScaleManipulator.m in Sources */,
 				4B5E6CC0198C0B9F005FC840 /* BitmapRotationManipulator.m in Sources */,
 			);

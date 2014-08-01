@@ -11,6 +11,8 @@ import UIKit
 class StripView: UIView {
     @IBOutlet weak var stripNumLabel: UILabel!
     @IBOutlet weak var colorPickerFrame: UIView!
+    @IBOutlet weak var modePicker: UIPickerView!
+    @IBOutlet weak var settingsBtn: UIButton!
     
     var stripNum: Int!
     
