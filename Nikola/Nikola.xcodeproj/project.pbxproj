@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B5E6C86198C0A79005FC840 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5E6C83198C0A4E005FC840 /* CoreGraphics.framework */; };
+		4B5E6C87198C0A79005FC840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5E6C81198C0A46005FC840 /* Foundation.framework */; };
+		4B5E6C88198C0A79005FC840 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5E6C7F198C0A3F005FC840 /* UIKit.framework */; };
+		4B5E6C89198C0A79005FC840 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5E6C7D198C0A38005FC840 /* QuartzCore.framework */; };
+		4B5E6C8A198C0A79005FC840 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5E6C7B198C0A32005FC840 /* Accelerate.framework */; };
 		4BF7B14D198B3EF300C38D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7B14C198B3EF300C38D17 /* AppDelegate.swift */; };
 		4BF7B14F198B3EF300C38D17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7B14E198B3EF300C38D17 /* ViewController.swift */; };
 		4BF7B152198B3EF300C38D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7B150198B3EF300C38D17 /* Main.storyboard */; };
@@ -29,6 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B5E6C7B198C0A32005FC840 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		4B5E6C7D198C0A38005FC840 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4B5E6C7F198C0A3F005FC840 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B5E6C81198C0A46005FC840 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B5E6C83198C0A4E005FC840 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4BF7B147198B3EF300C38D17 /* Nikola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nikola.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF7B14B198B3EF300C38D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BF7B14C198B3EF300C38D17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B5E6C86198C0A79005FC840 /* CoreGraphics.framework in Frameworks */,
+				4B5E6C87198C0A79005FC840 /* Foundation.framework in Frameworks */,
+				4B5E6C88198C0A79005FC840 /* UIKit.framework in Frameworks */,
+				4B5E6C89198C0A79005FC840 /* QuartzCore.framework in Frameworks */,
+				4B5E6C8A198C0A79005FC840 /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,9 +77,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B5E6C85198C0A6D005FC840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B5E6C83198C0A4E005FC840 /* CoreGraphics.framework */,
+				4B5E6C81198C0A46005FC840 /* Foundation.framework */,
+				4B5E6C7F198C0A3F005FC840 /* UIKit.framework */,
+				4B5E6C7D198C0A38005FC840 /* QuartzCore.framework */,
+				4B5E6C7B198C0A32005FC840 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4BF7B13E198B3EF300C38D17 = {
 			isa = PBXGroup;
 			children = (
+				4B5E6C85198C0A6D005FC840 /* Frameworks */,
 				4BF7B149198B3EF300C38D17 /* Nikola */,
 				4BF7B15C198B3EF400C38D17 /* NikolaTests */,
 				4BF7B148198B3EF300C38D17 /* Products */,
@@ -411,6 +439,7 @@
 				4BF7B165198B3EF400C38D17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BF7B166198B3EF400C38D17 /* Build configuration list for PBXNativeTarget "NikolaTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +448,7 @@
 				4BF7B168198B3EF400C38D17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
