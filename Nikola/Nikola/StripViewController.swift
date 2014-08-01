@@ -10,12 +10,16 @@ import UIKit
 
 class StripViewController: UIViewController {
     var stripView: StripView!
+    var colorPicker: RSColorPickerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         stripView = UIView.loadFromNibNamed("StripView") as StripView
         self.view.addSubview(stripView)
+        
+        colorPicker = RSColorPickerView(frame: CGRectMake(81, 107, 160, 160))
+        self.view.addSubview(colorPicker)
     }
     
     override func didReceiveMemoryWarning() {
