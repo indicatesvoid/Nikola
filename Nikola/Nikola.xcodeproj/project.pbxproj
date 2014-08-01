@@ -15,6 +15,7 @@
 		4BF7B16A198B3F2500C38D17 /* StripView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7B169198B3F2500C38D17 /* StripView.xib */; };
 		4BF7B16C198B3F3800C38D17 /* StripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7B16B198B3F3800C38D17 /* StripView.swift */; };
 		4BF7B16E198B3F4F00C38D17 /* UIView+NibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7B16D198B3F4F00C38D17 /* UIView+NibLoader.swift */; };
+		4BF7B170198B460300C38D17 /* StripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7B16F198B460300C38D17 /* StripViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		4BF7B169198B3F2500C38D17 /* StripView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StripView.xib; sourceTree = "<group>"; };
 		4BF7B16B198B3F3800C38D17 /* StripView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StripView.swift; sourceTree = "<group>"; };
 		4BF7B16D198B3F4F00C38D17 /* UIView+NibLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NibLoader.swift"; sourceTree = "<group>"; };
+		4BF7B16F198B460300C38D17 /* StripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StripViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				4BF7B14C198B3EF300C38D17 /* AppDelegate.swift */,
 				4BF7B14E198B3EF300C38D17 /* ViewController.swift */,
+				4BF7B16F198B460300C38D17 /* StripViewController.swift */,
 				4BF7B150198B3EF300C38D17 /* Main.storyboard */,
 				4BF7B153198B3EF400C38D17 /* Images.xcassets */,
 				4BF7B14A198B3EF300C38D17 /* Supporting Files */,
@@ -221,6 +224,7 @@
 				4BF7B14F198B3EF300C38D17 /* ViewController.swift in Sources */,
 				4BF7B16E198B3F4F00C38D17 /* UIView+NibLoader.swift in Sources */,
 				4BF7B14D198B3EF300C38D17 /* AppDelegate.swift in Sources */,
+				4BF7B170198B460300C38D17 /* StripViewController.swift in Sources */,
 				4BF7B16C198B3F3800C38D17 /* StripView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
         <!--Item 2-->
         <scene sceneID="DTF-Rm-u3h">
             <objects>
-                <viewController id="H2N-eU-zVm" customClass="ViewController" customModule="Nikola" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="H2N-eU-zVm" customClass="StripViewController" customModule="Nikola" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zda-r2-6tc"/>
                         <viewControllerLayoutGuide type="bottom" id="dut-Gz-qKw"/>
@@ -26,7 +26,7 @@
         <!--Item 1-->
         <scene sceneID="DlB-Oi-LuD">
             <objects>
-                <viewController id="7Lp-Lk-Xq6" customClass="ViewController" customModule="Nikola" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7Lp-Lk-Xq6" customClass="StripViewController" customModule="Nikola" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vyT-Mx-AAP"/>
                         <viewControllerLayoutGuide type="bottom" id="J0v-CT-Tmc"/>

@@ -9,5 +9,12 @@
 import UIKit
 
 class StripView: UIView {
+    @IBOutlet weak var stripNumLabel: UILabel!
     
+    var stripNum: Int!
+    
+    func setStripNum(num: Int) {
+        stripNum = num
+        stripNumLabel.text = "Strip \(String(stripNum))"
+    }
 }
